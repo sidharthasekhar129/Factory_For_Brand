@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+       <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/categoriesicon"
+            android:title="@string/menu_men" />
+
+        <item
+            android:id="@+id/nav_electronics"
+            android:icon="@drawable/ic_electronics_24dp"
+            android:title="@string/menu_electronics" />
+        <item
+            android:id="@+id/nav_customtshirt"
+            android:icon="@drawable/customtshirt"
+            android:title="@string/menu_customtshirt" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_store"
+            android:title="@string/menu_store" />
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@drawable/ic_offer_black_24dp"
+            android:title="@string/menu_offer" />
+
+
+    </group>
+    <item android:title="Account Data">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_account"
+                android:title="@string/menu_account" />
+            <item
+                android:id="@+id/nav_order"
+                android:icon="@drawable/ic_orders_24dp"
+                android:title="@string/menu_order" />
+            <item
+                android:id="@+id/nav_cart"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                android:title="@string/menu_cart" />
+
+        </menu>
+    </item>
+
+    <item android:title="Official">
+        <menu>
+            <item
+                android:id="@+id/nav_tandc"
+                android:icon="@drawable/ic_termsandcondition"
+                android:title="@string/menu_terms" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact_icon_black_24dp"
+                android:title="@string/menu_contact" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/menu_logout" />
+
+        </menu>
+    </item>
+
+</menu>

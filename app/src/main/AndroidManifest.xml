@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.factoryforbrand">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SearchResults" />
+        <activity android:name=".CategoryActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".PointsActivity"
+            android:parentActivityName=".AcountActivity" />
+        <activity
+            android:name=".ReferralActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Order_Details"
+            android:parentActivityName=".OrderActivity" />
+        <activity
+            android:name=".MyAddress"
+            android:parentActivityName=".AcountActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".ProductDetailsActivity" />
+        <activity
+            android:name=".Electronics"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Setting_info"
+            android:parentActivityName=".AcountActivity" />
+        <activity
+            android:name=".Change_password"
+            android:parentActivityName=".AcountActivity" />
+        <activity
+            android:name=".Personal_info"
+            android:parentActivityName=".AcountActivity" />
+        <activity
+            android:name=".OrderActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".CartActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".ContactUsActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".AcountActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".MenActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".StoreActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".LogInActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
